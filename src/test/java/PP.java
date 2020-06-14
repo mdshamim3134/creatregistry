@@ -6,6 +6,7 @@ public class PP{
 System.out.println(12);
 System.out.println(23);
 System.out.println(123);
+System.out.println(3);
 	}
 
 }
