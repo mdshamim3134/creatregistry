@@ -30,6 +30,7 @@ public class Catagory extends Base {
 		
 	
 		System.out.println(ele);
+		int i=9;
 		int size=ele.size();
 		System.out.println("size of element is:"+size);
 		String keys=Keys.chord(Keys.CONTROL,Keys.ENTER);
@@ -41,6 +42,7 @@ public class Catagory extends Base {
 		e.sendKeys(keys);
 		}
 		dr.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		
 		
 	}
 	
